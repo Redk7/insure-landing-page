@@ -374,7 +374,7 @@ left: -20px;
 
 }
 /**********************MOBILE SETTINGS***********************/
-@media(min-device-width: 900px) /*600px or smaller*/ {
+@media(max-width: 900px) /*600px or smaller*/ {
 
   h1{
     margin-left: auto;
