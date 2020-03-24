@@ -389,6 +389,8 @@ display: block;
    margin: auto;
    position: relative;
    left:  60px;
+   display: inline-block;
+   width: auto;
 
  }
   .image-div{/*Out of this i positioned it to the right, so in mobile im positioning it to the left*/
@@ -439,7 +441,7 @@ display: block;
 
   }
   .top-right-svg {
-    width:0;
+    display:none;
   }
   .middle-gut{
     background: #ffffff no-repeat url('../images/bg-pattern-intro-right-mobile.svg');
