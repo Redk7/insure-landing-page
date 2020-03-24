@@ -146,8 +146,8 @@ top: 15px;
 }
 
 .fam-image{
-display: block; /*Gets rid of the little space at the bottom of the image in a div*/
-width: 100%;
+  display: block; /*Gets rid of the little space at the bottom of the image in a div*/
+  width: 100%;
 
 
 }
@@ -391,11 +391,11 @@ display: block;
  }
 
  .intro-btn{
-   margin: auto;
+   margin: auto auto 10px auto;
    position: relative;
    display: inline-block;
    width: auto;
-
+   left: 60px;
  }
   .image-div{/*Out of this i positioned it to the right, so in mobile im positioning it to the left*/
 
@@ -408,7 +408,7 @@ display: block;
   .fam-image{
     width: 100%;
     left: 0;
-    top: 0;
+    top: 1px;
     margin: auto;
   }
 
