@@ -417,17 +417,20 @@ display: block;
   .snappy-process{
     text-align: center;
     line-height: 2rem;
+    margin:auto;
     margin-top: 100px;
   }
   .affordable-prices{
     text-align: center;
     line-height: 2rem;
+    margin:auto;
     margin-top: 100px;
 
   }
   .people-first{
     text-align: center;
     line-height: 2rem;
+    margin:auto;
     margin-top: 100px;
   }
   .middle-h1{
