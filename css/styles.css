@@ -1,0 +1,565 @@
+head{
+  font-family: 'DM Serif Display', serif;
+}
+body{
+  font-family: 'Karla', sans-serif;
+  background-color: #ffffff;
+  margin: auto;
+}
+a{
+  text-decoration: none;
+  color: #2D2640;
+}
+a:hover{
+  color: #837D87;
+}
+h1{
+  margin:auto;
+  color:#ffffff;
+  font-size: 4rem;
+  margin-left: 125px;
+  display: inline-block;
+  font-weight: lighter;
+}
+h3{
+  color:#2D2640;
+  font-family: 'DM Serif Display', serif;
+  margin:auto;
+  position: absolute;
+  top: 20px;
+  left: 125px;
+  font-size: 1.5rem;
+}
+
+hr{
+  border-style: solid none none none;
+  color: #ffffff;
+  width: 15%;
+  margin: 100px 0 50px 125px;
+}
+
+td{
+  padding: 0 50px 5px 0;
+
+}
+table{
+  width: 100%;
+}
+p{
+  width: 100%;
+}
+
+/**********************CLASS SELECTORS***********************/
+.top-header{
+  background-color: #ffffff;
+  margin: 0;
+  position: relative;
+  padding-top: 75px;
+  display: flex;
+  flex-direction: row;
+}
+.brain{
+margin: auto 125px auto 125px;
+position: absolute;
+width: auto;
+right: 0;
+top: 15px;
+}
+.work{
+  /*position:absolute;
+  right:250px;
+  */top:30px;
+  color: #837D87;
+  text-decoration: none;
+  margin-right: 20px;
+
+}
+.blog{
+  color: #837D87;
+  text-decoration: none;
+  margin-right: 20px;
+/*  position:absolute;
+  right:200px;
+  top:30px;
+*/
+}
+.account{
+  color: #837D87;
+  text-decoration: none;
+  margin-right: 20px;
+  /*position:absolute;
+  right:125px;
+  top:30px;*/
+}
+.intro-btn {
+  font-family: 'courier new';
+  font-weight: bold;
+  color: #2D2640;
+  font-size: 14px;
+  padding: 10px 25px;
+  border: 2px solid #2D2640;
+  background: transparent;
+  background: linear-gradient(top,  transparent,  transparent);
+  background: -ms-linear-gradient(top,  transparent,  transparent);
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+  background: -moz-linear-gradient(top,  transparent,  transparent);
+  text-decoration: none;
+  display: inline-block;
+}
+.intro-btn:hover {
+  color: #ffffff;
+  background: #2D2640;
+}
+.work:hover{
+    color:#2D2640;
+}
+.blog:hover{
+    color:#2D2640;
+}
+.account:hover{
+    color:#2D2640;
+}
+.container{
+  background-color: #ffffff;
+}
+.human-top{
+  position: relative;
+  height: 550px;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 100;
+
+}
+.humanizing-text{
+    color: #ffffff;
+    width: 60%;
+    font-size: .90rem;
+    text-align: left;
+    margin-left: 125px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.fam-image{
+display: block; /*Gets rid of the little space at the bottom of the image in a div*/
+width: 100%;
+
+
+}
+.image-div{
+  width: 75%;
+  position: relative;
+  margin: 100px 100px 0 10px;
+}
+
+.top-gut{
+  padding: 1px;
+  display: flex;
+  background-color:#2D2640;
+  flex-direction: row-reverse;
+  height: 600px;
+
+/*
+  background: #2D2640 no-repeat url('../images/bg-pattern-intro-right-desktop.svg');
+  background-position: right;
+  background-origin: border-box;
+  background-size: 300px;
+  background-position: top right;
+*/
+
+}
+.top-right-svg{
+  position: absolute;
+  z-index: 2;
+  width: auto;
+  margin: auto;
+  height: auto;
+}
+
+.middle-hr{
+  margin: 300px auto 100px 125px;
+  color: #2D2640;
+}
+.middle-gut{
+  background-color: #ffffff;
+}
+.middle-h1{
+  color: black;
+  display: block;
+  width: auto;
+  font-family: 'DM Serif Display', serif;
+
+}
+.top-btn {
+  font-family: 'courier new';
+  font-weight: bold;
+  color: #FFFFFF;
+  font-size: 14px;
+  padding: 10px 25px;
+  border: 2px solid #FFFFFF;
+  background: #2D2640;
+  background: linear-gradient(top,  #2D2640,  #2D2640);
+  background: -ms-linear-gradient(top,  #2D2640,  #2D2640);
+  background: -webkit-gradient(linear, left top, left bottom, from(#2D2640), to(#2D2640));
+  background: -moz-linear-gradient(top,  #2D2640,  #2D2640);
+  margin-left: 125px;
+  position: relative;
+  bottom: 50px;
+  text-decoration: none;
+  display: inline-block;
+}
+.top-btn:hover {
+  color: #2D2640;
+  background: #FFFFFF;
+}
+.left-top-svg{
+position: absolute;
+top: 500px;
+left: -20px;
+}
+.snappy-process{
+  width: auto;
+  background-color: #FFFFFF;
+  display: inline-block;
+  position: relative;
+}
+.affordable-prices{
+  display: inline-block;
+  width: auto;
+  position: relative;
+  background-color: #FFFFFF;
+  margin-left: 10px;
+
+
+}
+.people-first{
+  background-color: #FFFFFF;
+  display: inline-block;
+  width: auto;
+  margin-left: 10px;
+
+}
+.info-divs{
+  margin: 50px 125px 50px 125px;
+  width: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+
+}
+.info-h4{
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-family: 'DM Serif Display', serif;
+}
+.info-text{
+  font-size: 1.2rem;
+  width: auto;
+  color: #837D87;
+}
+.how-we-work{
+  background-color: #2D2640;
+  margin: 125px;
+  padding: .1px;
+  position: relative;
+  background: #2D2640 no-repeat url('../images/bg-pattern-how-we-work-desktop.svg');
+  background-position: top right;
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+
+}
+
+.bot-container{
+  background: #f7f7f7 no-repeat url('../images/bg-pattern-footer-desktop.svg');
+  width: auto;
+  padding-bottom: 50px;
+}
+.bot-gut{
+  margin: auto 125px;
+  position: relative;
+}
+
+.bot-insure{
+  display: inline-block;
+  font-size:1.8rem;
+  font-family: 'DM Serif Display', serif;
+  font-weight: lighter;
+
+}
+
+.first-row{
+  height: 100px;
+}
+.first-item{
+  color:  #837D87;
+}
+.first-item:hover{
+  color:  #2D2640;
+}
+.bot-h1{
+  font-size: 3.2rem;
+  width:auto;
+  display: inline-block;
+  position: relative;
+  padding: 10px;
+  font-family: 'DM Serif Display', serif;
+  font-weight: 100;
+}
+.svg-bot{
+  width: 100%;
+  height: 100%;
+}
+
+.bot-button {
+  font-family: helvetica;
+  font-weight: bold;
+  color: #FFFFFF ;
+  font-size: 10px;
+  /*box-shadow: 1px 1px 1px #BEE2F9;*/
+  padding: 10px 30px;
+  border: 2px solid #FFFFFF;
+  background: transparent;
+  background: linear-gradient(top,  transparent,  transparent);
+  background: -ms-linear-gradient(top,  transparent, transparent);
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+  background: -moz-linear-gradient(top,  transparent,  transparent);
+  display: inline-block;
+  position: relative;
+  margin: auto;
+
+  text-decoration: none;
+  text-align: center;
+}
+.bot-button:hover {
+  color: #2D2640;
+  background: #FFFFFF;
+}
+.last-hr{
+  width: auto;
+  margin: auto;
+  padding:10px;
+  position: relative;
+  color: #837D87;
+}
+.bot-icons{
+  position: relative;
+  margin-top:31.920px;
+  float: right;
+  display: flex;
+  flex-direction: row;
+}
+.icon{
+  margin-right: 13px;
+  text-decoration: none;
+}
+.table-bot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.first{
+  display: block;
+}.second{
+  display: inline-block;
+
+}.third{
+  display: inline-block;
+
+}.fourth{
+  display: inline-block;
+
+
+}
+/**********************MOBILE SETTINGS***********************/
+@media(max-width: 900px) /*600px or smaller*/ {
+
+  h1{
+    margin-left: auto;
+  }
+  /* ---------------------------- */
+  .brain{
+width: 55%;
+margin: auto 50px auto auto;
+display: block;
+ }
+
+ .intro-btn{
+   margin: auto;
+   position: relative;
+   left:  60px;
+
+ }
+  .image-div{/*Out of this i positioned it to the right, so in mobile im positioning it to the left*/
+
+    width: 100%;
+    left: 0;
+    position: relative;
+    margin:auto;
+    top: 0;
+  }
+  .fam-image{
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: auto;
+  }
+
+  .info-divs{
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+  }
+  .snappy-process{
+    text-align: center;
+    line-height: 2rem;
+    margin-top: 100px;
+  }
+  .affordable-prices{
+    text-align: center;
+    line-height: 2rem;
+    margin-top: 100px;
+
+  }
+  .people-first{
+    text-align: center;
+    line-height: 2rem;
+    margin-top: 100px;
+  }
+  .middle-h1{
+  text-align: center;
+
+  }
+  .top-gut{
+    height: auto;
+    text-align: center;
+    flex-direction: column;
+
+  }
+  .top-right-svg {
+    z-index: -1;
+  }
+  .middle-gut{
+    background: #ffffff no-repeat url('../images/bg-pattern-intro-right-mobile.svg');
+    background-position: top right;
+    background-size: 150px;
+  }
+  .middle-hr{
+    width: 50%;
+    margin: 100px auto 50px auto;
+
+  }
+  .mid-hr-h1{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+
+  }
+  .top-btn{
+    margin-top: 100px;
+    margin-left: 0;
+
+  }
+  .human-top{
+    height: auto;
+  }
+  .human-top hr{
+    width: 0;
+
+  }
+  .top-header h3{
+    left: 10px;
+    text-align: left;
+    margin: auto;
+    font-family: 'DM Serif Display', serif;
+  }
+  .humanizing-text{
+    text-align: center;
+    line-height: 1.5rem;
+    margin: auto;
+  }
+  .svg-how-we-work{
+    width: auto;
+    height: auto;
+
+  }
+  .how-we-work{
+    background: #2D2640 no-repeat url('../images/bg-pattern-how-we-work-mobile.svg');
+    background-position: top right;
+    margin: 200px 25px 200px 25px;
+    text-align: center;
+    flex-direction: column;
+  }
+  .bot-h1{
+    margin-top: 50px;
+  }
+  .bot-button{
+    position: relative;
+    display: block;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    width: 40%;
+    margin: 20px auto 100px auto;
+
+  }
+  .bot-gut{
+    text-align: center;
+    margin: auto;
+  }
+  .bot-icons{
+    width: 50%;
+    right: 65px;
+    top: 65px;
+
+  }
+  .table-bot{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  /*.bot-insure{
+    display: inline-block;
+    font-size:1.5rem;
+    font-family: 'DM Serif Display', serif;
+    font-weight: lighter;
+  }
+*/
+  .bot-insure{
+    margin: auto;
+    display: block;
+    width: auto;
+    position: relative;
+    top: 80px;
+
+  }
+  /*.last-hr{
+    width: auto;
+    margin: auto;
+    padding:10px;
+    position: relative;
+    color: #837D87;
+  }*/
+  .last-hr{
+      top: 75px;
+      width: 90%;
+  }
+  .first{
+    margin-top: 100px;
+    display: block;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+.fourth{
+    padding-bottom: 50px;
+  }
+.last-item{
+    display: inline-block;
+    margin: 5px;
+  }
+}
