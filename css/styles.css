@@ -57,6 +57,7 @@ p{
   padding-top: 75px;
   display: flex;
   flex-direction: row;
+  width: auto;
 }
 .brain{
 margin: auto 125px auto 125px;
@@ -388,7 +389,6 @@ display: block;
  .intro-btn{
    margin: auto;
    position: relative;
-   left:  60px;
    display: inline-block;
    width: auto;
 
