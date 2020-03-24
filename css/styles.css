@@ -1,6 +1,9 @@
 head{
   font-family: 'DM Serif Display', serif;
 }
+main{
+  margin:auto;
+}
 body{
   font-family: 'Karla', sans-serif;
   background-color: #ffffff;
@@ -58,6 +61,7 @@ p{
   display: flex;
   flex-direction: row;
   width: auto;
+
 }
 .brain{
 margin: auto 125px auto 125px;
@@ -128,7 +132,6 @@ top: 15px;
   height: 550px;
   font-family: 'DM Serif Display', serif;
   font-weight: 100;
-
 }
 .humanizing-text{
     color: #ffffff;
@@ -374,7 +377,7 @@ left: -20px;
 
 }
 /**********************MOBILE SETTINGS***********************/
-@media(max-width: 900px) /*600px or smaller*/ {
+@media(max-width: 900px) /*900px or smaller*/ {
 
   h1{
     margin-left: auto;
@@ -384,6 +387,7 @@ left: -20px;
 width: 55%;
 margin: auto 50px auto auto;
 display: block;
+
  }
 
  .intro-btn{
@@ -426,11 +430,12 @@ display: block;
     margin:auto;
     margin-top: 100px;
 
+
   }
   .people-first{
     text-align: center;
     line-height: 2rem;
-    margin:auto;
+    margin: auto;
     margin-top: 100px;
   }
   .middle-h1{
@@ -444,7 +449,7 @@ display: block;
 
   }
   .top-right-svg {
-    display:none;
+  display: none;
   }
   .middle-gut{
     background: #ffffff no-repeat url('../images/bg-pattern-intro-right-mobile.svg');
