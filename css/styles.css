@@ -439,7 +439,7 @@ display: block;
 
   }
   .top-right-svg {
-    z-index: -1;
+    width:0;
   }
   .middle-gut{
     background: #ffffff no-repeat url('../images/bg-pattern-intro-right-mobile.svg');
