@@ -395,7 +395,7 @@ display: block;
    position: relative;
    display: inline-block;
    width: auto;
-   left: 60px;
+   left: 70px;
  }
   .image-div{/*Out of this i positioned it to the right, so in mobile im positioning it to the left*/
 
